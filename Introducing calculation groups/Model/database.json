@@ -58,37 +58,6 @@
     ],
     "expressions": [
       {
-        "name": "SourceType",
-        "description": "Choose between Http and File data source",
-        "kind": "m",
-        "annotations": [
-          {
-            "name": "PBI_NavigationStepName",
-            "value": "Navigation"
-          }
-        ]
-      },
-      {
-        "name": "SourceFolder",
-        "kind": "m",
-        "annotations": [
-          {
-            "name": "PBI_NavigationStepName",
-            "value": "Navigation"
-          }
-        ]
-      },
-      {
-        "name": "fnGetCsvContents",
-        "kind": "m",
-        "annotations": [
-          {
-            "name": "PBI_NavigationStepName",
-            "value": "Navigation"
-          }
-        ]
-      },
-      {
         "name": "SourceUrl",
         "kind": "m",
         "annotations": [
@@ -110,7 +79,7 @@
       },
       {
         "name": "PBI_QueryOrder",
-        "value": "[\"Product\",\"Date\",\"Customer\",\"Promotion\",\"Sales\",\"Store\",\"SourceType\",\"SourceFolder\",\"fnGetCsvContents\",\"SourceUrl\"]"
+        "value": "[\"Product\",\"Date\",\"Customer\",\"Promotion\",\"Sales\",\"Store\",\"SourceUrl\"]"
       },
       {
         "name": "__TEdtr",
