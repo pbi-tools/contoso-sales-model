@@ -1,6 +1,6 @@
 # Contoso Sales Sample Model - PBIX Sources
 
-This repository contains the Contoso Sales model provided by [sqlbi.com](http://sqlbi.com) as part of their article [Introducing Calculation Groups](https://www.sqlbi.com/articles/introducing-calculation-groups/).
+This repository contains the Contoso Sales model provided by [sqlbi.com](http://sqlbi.com) as part of their article [Introducing Calculation Groups](https://www.sqlbi.com/articles/introducing-calculation-groups/). Files are provided for training and learning purposes.
 
 This repo changes the distribution in two ways:
 
