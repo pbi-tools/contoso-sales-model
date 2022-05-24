@@ -1,5 +1,5 @@
 {
-  "version": "5.9",
+  "version": "5.21",
   "themeCollection": {
     "baseTheme": {
       "name": "CY19SU06",
@@ -7,7 +7,7 @@
       "type": 2
     }
   },
-  "activeSectionIndex": 4,
+  "activeSectionIndex": 0,
   "defaultDrillFilterOtherVisuals": true,
   "slowDataSourceSettings": {
     "isCrossHighlightingDisabled": false,
@@ -18,10 +18,19 @@
   },
   "linguisticSchemaSyncVersion": 2,
   "settings": {
+    "isPersistentUserStateDisabled": false,
+    "hideVisualContainerHeader": false,
     "useStylableVisualContainerHeader": true,
     "exportDataMode": 1,
     "useNewFilterPaneExperience": true,
-    "allowChangeFilterTypes": true
+    "optOutNewFilterPaneExperience": false,
+    "defaultFilterActionIsDataFilter": false,
+    "useCrossReportDrillthrough": false,
+    "allowChangeFilterTypes": true,
+    "allowInlineExploration": false,
+    "disableFilterPaneSearch": false,
+    "enableDeveloperMode": false,
+    "useEnhancedTooltips": true
   },
   "objects": {
     "section": [

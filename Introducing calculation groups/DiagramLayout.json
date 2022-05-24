@@ -1,94 +1,117 @@
 {
-  "version": "1.0.0",
+  "version": "1.1.0",
   "diagrams": [
     {
-      "name": "All tables",
-      "zoomValue": 100,
-      "isDefault": true,
-      "tables": [
-        "Customer",
-        "Date",
-        "Product",
-        "Promotion",
-        "Sales",
-        "Store",
-        "Time Intelligence",
-        "Metric"
-      ],
-      "layout": {
-        "boundingBoxWidth": 1390.3,
-        "boundingBoxHeight": 1014.6837336069034,
-        "boundingBoxPosition": {
-          "x": 0,
-          "y": -5.6843418860808015E-14
+      "ordinal": 0,
+      "scrollPosition": {
+        "x": 0,
+        "y": 182.66667175292969
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 0,
+            "y": 213.86148874228763
+          },
+          "nodeIndex": "Customer",
+          "size": {
+            "height": 337,
+            "width": 234
+          },
+          "zIndex": 8
         },
-        "nodes": [
-          {
-            "height": 300,
-            "layedOut": true,
-            "left": 0,
-            "nodeIndex": "Customer",
-            "top": 408.36148874228763,
-            "width": 180
+        {
+          "location": {
+            "x": 1330.5611371285258,
+            "y": 683
           },
-          {
-            "height": 300,
-            "layedOut": true,
-            "left": 649.06113712852573,
-            "nodeIndex": "Date",
-            "top": 350.32682617389,
-            "width": 180
+          "nodeIndex": "Date",
+          "size": {
+            "height": 337,
+            "width": 234
           },
-          {
-            "height": 300,
-            "layedOut": true,
-            "left": 613.29501620218059,
-            "nodeIndex": "Product",
-            "top": -5.6843418860808015E-14,
-            "width": 180
+          "zIndex": 1
+        },
+        {
+          "location": {
+            "x": 784.54501620218059,
+            "y": 213.25
           },
-          {
-            "height": 214,
-            "layedOut": true,
-            "left": 49.605049749387376,
-            "nodeIndex": "Promotion",
-            "top": 102.56469950742166,
-            "width": 180
+          "nodeIndex": "Product",
+          "size": {
+            "height": 337,
+            "width": 234
           },
-          {
-            "height": 300,
-            "layedOut": true,
-            "left": 263.52499986870828,
-            "nodeIndex": "Sales",
-            "top": 267.91371727343108,
-            "width": 180
+          "zIndex": 2
+        },
+        {
+          "location": {
+            "x": 357.35504974938738,
+            "y": 212.81469950742166
           },
-          {
-            "height": 300,
-            "layedOut": true,
-            "left": 256.71878441408262,
-            "nodeIndex": "Store",
-            "top": 714.68373360690339,
-            "width": 180
+          "nodeIndex": "Promotion",
+          "size": {
+            "height": 251,
+            "width": 234
           },
-          {
-            "height": 100,
-            "layedOut": true,
-            "left": 929.7,
-            "nodeIndex": "Time Intelligence",
-            "top": 0,
-            "width": 180
+          "zIndex": 3
+        },
+        {
+          "location": {
+            "x": 657.10504974938738,
+            "y": 750.16371727343108
           },
-          {
-            "height": 100,
-            "layedOut": true,
-            "left": 1210.3,
-            "nodeIndex": "Metric",
-            "top": 0,
-            "width": 180
-          }
-        ]
-      }
+          "nodeIndex": "Sales",
+          "size": {
+            "height": 419.5,
+            "width": 234
+          },
+          "zIndex": 4
+        },
+        {
+          "location": {
+            "x": 1162.7187844140826,
+            "y": 214.43373360690339
+          },
+          "nodeIndex": "Store",
+          "size": {
+            "height": 337,
+            "width": 234
+          },
+          "zIndex": 5
+        },
+        {
+          "location": {
+            "x": 0,
+            "y": 706.75
+          },
+          "nodeIndex": "Time Intelligence",
+          "size": {
+            "height": 137,
+            "width": 234
+          },
+          "zIndex": 6
+        },
+        {
+          "location": {
+            "x": 0,
+            "y": 884
+          },
+          "nodeIndex": "Metric",
+          "size": {
+            "height": 137,
+            "width": 234
+          },
+          "zIndex": 7
+        }
+      ],
+      "name": "All tables",
+      "zoomValue": 80,
+      "pinKeyFieldsToTop": true,
+      "showExtraHeaderInfo": true,
+      "hideKeyFieldsWhenCollapsed": false
     }
-  ]
+  ],
+  "selectedDiagram": "All tables",
+  "defaultDiagram": "All tables"
 }

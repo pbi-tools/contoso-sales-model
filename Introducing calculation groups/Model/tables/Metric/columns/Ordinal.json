@@ -2,5 +2,12 @@
   "name": "Ordinal",
   "dataType": "int64",
   "isHidden": true,
-  "sourceColumn": "Ordinal"
+  "sourceColumn": "Ordinal",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
 }

@@ -1,0 +1,1 @@
+"X:\Workspaces\SQLBI - Calculation Groups\Introducing-calculation-groups\data\" meta [IsParameterQuery=true, Type="Text", IsParameterQueryRequired=false]

@@ -3,16 +3,8 @@
   "dataType": "double",
   "sourceColumn": "Yearly Income",
   "formatString": "#,0.00",
-  "summarizeBy": "sum",
+  "summarizeBy": "none",
   "annotations": [
-    {
-      "name": "Format",
-      "value": "<Format Format=\"NumberDecimal\" Accuracy=\"2\" ThousandSeparator=\"True\" />"
-    },
-    {
-      "name": "DataTypeAtRefresh",
-      "value": "Double#####not a type"
-    },
     {
       "name": "SummarizationSetBy",
       "value": "Automatic"

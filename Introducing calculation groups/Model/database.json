@@ -1,11 +1,12 @@
 {
   "name": "Introducing calculation groups",
-  "compatibilityLevel": 1520,
+  "compatibilityLevel": 1550,
   "model": {
     "culture": "en-US",
     "dataAccessOptions": {
       "legacyRedirects": true,
-      "returnErrorValuesAsNull": true
+      "returnErrorValuesAsNull": true,
+      "fastCombine": true
     },
     "defaultPowerBIDataSourceVersion": "powerBI_V3",
     "discourageImplicitMeasures": true,
@@ -57,30 +58,43 @@
     ],
     "expressions": [
       {
-        "name": "Product Category",
+        "name": "SourceType",
+        "description": "Choose between Http and File data source",
         "kind": "m",
         "annotations": [
           {
             "name": "PBI_NavigationStepName",
             "value": "Navigation"
-          },
-          {
-            "name": "PBI_ResultType",
-            "value": "Table"
           }
         ]
       },
       {
-        "name": "Product Subcategory",
+        "name": "SourceFolder",
         "kind": "m",
         "annotations": [
           {
             "name": "PBI_NavigationStepName",
             "value": "Navigation"
-          },
+          }
+        ]
+      },
+      {
+        "name": "fnGetCsvContents",
+        "kind": "m",
+        "annotations": [
           {
-            "name": "PBI_ResultType",
-            "value": "Table"
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          }
+        ]
+      },
+      {
+        "name": "SourceUrl",
+        "kind": "m",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
           }
         ]
       }
@@ -92,11 +106,11 @@
       },
       {
         "name": "PBIDesktopVersion",
-        "value": "2.83.5894.442 (20.07)"
+        "value": "2.105.923.0 (22.05)"
       },
       {
         "name": "PBI_QueryOrder",
-        "value": "Product Category.Product Subcategory.Product.Date.Customer.Promotion.Sales.Store"
+        "value": "[\"Product\",\"Date\",\"Customer\",\"Promotion\",\"Sales\",\"Store\",\"SourceType\",\"SourceFolder\",\"fnGetCsvContents\",\"SourceUrl\"]"
       },
       {
         "name": "__TEdtr",

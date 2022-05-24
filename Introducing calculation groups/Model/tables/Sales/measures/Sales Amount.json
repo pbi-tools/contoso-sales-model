@@ -1,10 +1,4 @@
 {
   "name": "Sales Amount",
-  "formatString": "#,0.00",
-  "annotations": [
-    {
-      "name": "Format",
-      "value": "<Format Format=\"NumberDecimal\" Accuracy=\"2\" ThousandSeparator=\"True\" />"
-    }
-  ]
+  "formatString": "#,0.00"
 }

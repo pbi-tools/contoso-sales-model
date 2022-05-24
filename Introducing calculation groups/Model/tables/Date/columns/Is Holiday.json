@@ -1,17 +1,10 @@
 {
   "name": "Is Holiday",
-  "dataType": "int64",
+  "dataType": "boolean",
   "sourceColumn": "Is Holiday",
-  "summarizeBy": "sum",
+  "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+  "summarizeBy": "none",
   "annotations": [
-    {
-      "name": "Format",
-      "value": "<Format Format=\"General\" />"
-    },
-    {
-      "name": "DataTypeAtRefresh",
-      "value": "Int64#####not a type"
-    },
     {
       "name": "SummarizationSetBy",
       "value": "Automatic"

@@ -27,6 +27,7 @@
   "partitions": [
     {
       "name": "Partition",
+      "mode": "import",
       "source": {
         "type": "calculationGroup"
       }
