@@ -14,3 +14,7 @@ A fully functioning and refreshable PBIT file can be generated from sources in t
     pbi-tools compile '.\Introducing calculation groups' -format PBIT
 
 _Requires `pbi-tools`, [1.0.0-beta.6](https://github.com/pbi-tools/pbi-tools/releases/tag/1.0.0-beta.6) or [later](https://github.com/pbi-tools/pbi-tools/releases/latest) release._
+
+## Enable git-lfs on fresh clone
+
+    git lfs install
